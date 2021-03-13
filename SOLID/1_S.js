@@ -1,6 +1,6 @@
 // Single Responsibility Principle
 
-// Класс отвечающий за сообщением
+// Класс отвечающий за сообщение
 class Message {
   constructor(subject, text) {
     this.subject = subject
@@ -46,7 +46,7 @@ class Printer {
   }
 }
 
-// Класс отвечающий за сохранением
+// Класс отвечающий за сохранение
 class SaveToFile {
   constructor(data) {
     this.data = data
